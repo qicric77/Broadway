@@ -1,38 +1,78 @@
 @charset "utf-8";
 /* CSS Document */
  body {
-    font-family: Verdana, sans-serif;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     text-align: center;
-    background-color: black;
+    background-color: #0E0E0E;
     color: white;
 }
-
-h1 {
-	font-family: verdana;
-	font-weight: normal;
-	font-size: 50px;
+header { 
+	background-image: url(images/the-flatiron-building.png);
+}
+header a{ 
+	font-family: Helvetica;
+	font-size: 18px;
 	color: white; 
-	text-align: centre; 
+	margin: 20px; 
+	list-style: none;
+	
+}
+.container{ 
+width: 1280px;
+height: 1280px; 
+margin: 0 auto;
+background-color: white;
+}
+h1 {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 70px;
+	color: white; 
+	text-align: center; 
 }
 h2 { 
-	font-family: verdana;
-	font-weight: 300;
-	font-size: 42px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 32px;
+	color: black; 
+	text-align: centre;
+}
+h3 { 
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 23px;
+	color: black; 
+	text-align: centre;
+}
+h4 {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 23px;
 	color: white; 
 	text-align: centre;
 }
-.cta {
-	font-family: verdana;
-	font-weight: normal;
-	font-size: 16px;
-	color: aquamarine;
-	text-align: centre; 
-}
-p {
-	color: grey;
-	font-size: 21px;
 	
+p { 
+	font-family: helvetica;
+	color: black; 
+	text-align: centre;
 }
-#copyright {
-	text-align: right;
+#bg2 { 
+	background-image: url(images/the-flatiron-building.png);
+
+}
+.inline { 
+	display: inline;
+}
+.copyright { 
+ font-family: helvetica; 
+ font-size: 11px; 
+ color: white; 
+	height:inherit; 
+	width: inherit;
+}
+footer{ 
+	background-color: dimgray;
+	text-align: left;
+
 }
